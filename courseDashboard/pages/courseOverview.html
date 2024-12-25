@@ -3,101 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Overview</title>
+    <title>Financial Awareness Course Overview</title>
     <style>
         body {
-            margin: 0; /* Page margins */
-            font-family: Arial, sans-serif; /* Sets fonts */
-            background-color: #000000; /* Black background */
-            color: #FFFFFF; /* White text */
-        }
-
-        header {
-            background-color: #AF69EE; /* Orchid accent */
-            padding: 20px; /* Changes padding(Space between elements) */
-            text-align: center; /* Text alling */
-        }
-
-        header h1 {
+            background-color: #1c1c1e;
+            color: #e5e5e5;
+            font-family: Arial, sans-serif;
             margin: 0;
+            padding: 0;
         }
-
-        .container {
-            padding: 20px;
+        header {
+            background-color: #3b1e57;
+            color: #ffffff;
+            padding: 1.5em;
             text-align: center;
+            border: 3px solid #5e5e5e;
         }
-
-        .container h2 {
-            background-color: #AF69EE; /* Orchid accent */ 
+        main {
+            padding: 2em;
+            max-width: 900px;
+            margin: auto;
+            background-color: #2a2a2c;
+            border: 3px solid #5e5e5e;
+            border-radius: 8px;
         }
-
-        .description {
-            margin: 20px 0;
-            color: #BBBBBB; /* Light gray */
+        section {
+            margin-bottom: 2em;
+            padding: 1.5em;
+            background-color: #333335;
+            border: 3px solid #5e5e5e;
+            border-radius: 8px;
         }
-
-        .week-links {
-            display: flex;
-            flex-wrap: wwrap;
-            justify-content: center;
-            padding: 20px;
+        footer {
+            background-color: #3b1e57;
+            color: #b3b3b3;
+            text-align: center;
+            padding: 1.5em;
+            border: 3px solid #5e5e5e;
+            margin-top: 2em;
         }
-
-        .week-links {
-            background-color: #333333; /* Dark gray */
-            color: #FFFFFF; /* White text */
-            margin: 10px;
-            padding: 15px 25px;
+        .week-link {
+            display: block;
+            color: #ffffff;
             text-decoration: none;
+            background-color: #4e4e50;
+            padding: 1em;
+            margin: 0.5em 0;
             border-radius: 5px;
-            text-align: center;
-            width: 150px;
+            border: 2px solid #5e5e5e;
             transition: background-color 0.3s, transform 0.2s;
         }
-
-        .week-links:hover {
-            background-color: #AF69EE; /* Orchid accent */ 
-            transform: scale(1.05);
+        .week-link:hover {
+            background-color: #5a3b76;
+            transform: scale(1.03);
         }
-
-        .competition-section {
-            margin: 40px 20px;
-            padding: 20px;
-            background-color: #333333; /* Dark gray */
-            border-radius: 10px;
+        h1, h2 {
+            color: #d8d8d8;
         }
-
-        .competition-section h3 {
-            background-color: #AF69EE; /* Orchid accent */ 
+        ul {
+            padding-left: 1.5em;
         }
-
-        .competition-section p {
-            color: #BBBBBB; /* Light gray */
+        ul li {
+            margin: 0.5em 0;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Course Overview</h1>
+        <h1>Financial Awareness Course</h1>
     </header>
-
-    <div class="container">
-        <h2>Welcome to Your Financial Journey</h2>
-        <p class="description">This course aims to instill basic financial knowledge, introduce practical budgeting skills, and develop financial awareness. Navigate through the weeks to build your financial foundation step by step</p>
-    </div>
-
-    <div class="week-links">
-        <!-- Links for each week. Add more links as needed -->
-    </div>
-
-    <div class="competition-section">
-        <h3>About the UMD Pitch Dingman Competition</h3>
-        <p>This course is designed with college students in mind and is being pitched at the UMD Pitch Dingman competition, hosted by the Robert H. Smith School of Business. The competition provides an opportunity to showcase innovative educational solutions aimed at empowering students with financial literacy and practical budgeting skills.</p>
-    </div>
-    
+    <main>
+        <section>
+            <h2>Course Goals</h2>
+            <p>This course is designed for college students and will be presented at the UMD Pitch Dingman competition through the Robert H. Smith School of Business. It aims to:</p>
+            <ul>
+                <li>Instill basic financial knowledge</li>
+                <li>Introduce practical budgeting skills</li>
+                <li>Develop financial awareness</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Weekly Lessons</h2>
+            <p>Select a week to access the lesson content:</p>
+            <div>
+                <!-- Example week links, replicate for all weeks -->
+                <a href="#" class="week-link">Week 1: Introduction to Financial Basics</a>
+                <a href="#" class="week-link">Week 2: Setting Financial Goals</a>
+                <!-- Continue adding week links as needed -->
+            </div>
+        </section>
+    </main>
     <footer>
         <p>&copy; 2024 Financial Awareness Course. All rights reserved.</p>
-        <p>Created by Garrison King and Joshua Young</p>  
+        <p>Created by Joshua Young and Garrison King</p>
     </footer>
 </body>
 </html>
