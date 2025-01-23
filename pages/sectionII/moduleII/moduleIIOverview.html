@@ -4,28 +4,35 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Module II: Stocks, Bonds, and Index Funds</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
         <style>
             body {
                 background-color: #1c1c1e;
                 color: #e5e5e5;
-                font-family: Arial, sans-serif;
+                font-family: 'Inter', sans-serif;
                 margin: 0;
                 padding: 0;
             }
             header {
-                background-color: #b31e2c; /* UMD red */
+                background: linear-gradient(90deg, #1f1f1f, #b31e2c);
                 color: #ffffff;
-                padding: 1.5em;
+                padding: 2em;
                 text-align: center;
-                border: 3px solid #ffd700; /* UMD gold */
+                border-bottom: 3px solid #ffd700;
+            }
+            header h1 {
+                font-size: 2.5em;
+                font-weight: 600;
+                margin: 0;
             }
             main {
                 padding: 2em;
                 max-width: 900px;
-                margin: auto;
+                margin: 2em auto;
                 background-color: #2a2a2c;
                 border: 3px solid #ffd700;
-                border-radius: 8px;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
             }
             section {
                 margin-bottom: 2em;
@@ -34,37 +41,64 @@
                 border: 3px solid #ffd700;
                 border-radius: 8px;
             }
-            footer {
+            section h2 {
+                font-size: 1.8em;
+                font-weight: 600;
+                color: #ffd700;
+                margin-bottom: 0.5em;
+            }
+            section p {
+                font-size: 1.1em;
+                line-height: 1.6;
+                color: #d3d3d3;
+            }
+            ul {
+                list-style: none;
+                padding: 0;
+                margin: 1em 0;
+            }
+            ul li {
+                background: #444;
+                margin: 0.5em 0;
+                padding: 0.8em 1em;
+                border-radius: 8px;
+                color: #ffd700;
+                font-weight: 600;
+                transition: transform 0.2s, background-color 0.3s;
+            }
+            ul li:hover {
                 background-color: #b31e2c;
-                color: #b3b3b3;
-                text-align: center;
-                padding: 1.5em;
-                border: 3px solid #ffd700;
-                margin-top: 2em;
+                color: #ffffff;
+                transform: scale(1.02);
             }
             .week-link {
                 display: block;
                 color: #ffffff;
                 text-decoration: none;
-                background-color: #4e4e50;
+                font-weight: 600;
+                background: #4e4e50;
                 padding: 1em;
-                margin: 0.5em 0;
-                border-radius: 5px;
+                margin: 0.8em 0;
+                border-radius: 8px;
                 border: 2px solid #ffd700;
-                transition: background-color 0.3s, transform 0.2s;
+                transition: transform 0.2s, background-color 0.3s;
             }
             .week-link:hover {
                 background-color: #b31e2c;
-                transform: scale(1.03);
+                transform: scale(1.02);
+                color: #ffffff;
             }
-            h1, h2 {
-                color: #ffd700;
+            footer {
+                text-align: center;
+                background-color: #1f1f1f;
+                padding: 2em;
+                border-top: 3px solid #ffd700;
+                margin-top: 3em;
+                color: #b3b3b3;
             }
-            ul {
-                padding-left: 1.5em;
-            }
-            ul li {
+            footer p {
                 margin: 0.5em 0;
+                font-size: 0.9em;
             }
         </style>
     </head>
@@ -74,8 +108,8 @@
         </header>
         <main>
             <section>
-                <h2>Moduel Goals</h2>
-                <p>This we will define the following topics:</p>
+                <h2>Module Goals</h2>
+                <p>This module will define the following topics:</p>
                 <ul>
                     <li>Basics of the stock market</li>
                     <li>Basics of the bond market</li>
@@ -86,20 +120,16 @@
                 <h2>Weekly Topics</h2>
                 <p>Select a week to access the lesson content:</p>
                 <div>
-                    <!-- Example week links, replicate for all weeks -->
                     <a href="#" class="week-link">Week I: The stock market</a>
                     <a href="#" class="week-link">Week II: The bond market</a>
                     <a href="#" class="week-link">Week III: Index funds</a>
-                    <!-- Continue adding week links as needed -->
                 </div>
             </section>
             <section>
-                <h2>Workshop activity</h2>
+                <h2>Workshop Activity</h2>
                 <p>Select the workshop activity to access the lesson content:</p>
                 <div>
-                    <!-- Example section links, replicate for all weeks -->
-                    <a href="#" class="week-link"> Workshop: Create a mock portfolio</a>
-                    <!-- Continue adding section links as needed -->
+                    <a href="#" class="week-link">Workshop: Create a mock portfolio</a>
                 </div>
             </section>
         </main>
